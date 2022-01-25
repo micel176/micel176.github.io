@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMAK SURIA</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<nav id="menu">
+     <ul>
+        <div id="heading">
+            <a href="#">SMA KATOLIK SURIA</a></li>
+        </div>
+        <li><a href="SURIA.html">Beranda</a></li>
+        <li><a href="sejarah.html">Sejarah</a></li>
+        <li><a href="fasilitas.html">Fasilitas</a></li>
+        <li><a href="#">Tentang Sekolah</a>
+            <ul>
+                <li> <a href="jurusan.html">Jurusan dan Kegiatan</a></li>
+                <li> <a href="info.html">Info dan Alamat Sekolah</a></li>
+            </ul>
+        </li>
+        <li><a href="pendaftran.html">Pendaftaran</a></li>
+        <li><a href="foto.html">Foto</a>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div id="isi">
+    <div id="#beranda">
+            <html>
+    <head>
+    <title>Pendaftaran</title>
+    </head>
+    <style>
+
+        h1 {
+            font-size: 40px;
+            color: rgb(236, 18, 18);
+            font-style: italic;
+        }
+          
+        body {
+            text-align: center;
+            background-image: url(photo.png);
+        }
+
+        h2{
+        color: black;
+        text-align: left;
+        }
+
+    label {
+        font-size: 15pt;
+        color:black;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+
+     .login input{
+        padding: 8px;
+        width: 95%;
+        background: rgb(238, 230, 230);
+        font-size: 15pt;
+        margin: 6px 0px;
+        border-radius: 5px;
+        }   
+
+     .botton{
+        margin-top: 10px;
+        background: #3498db;
+        color: black;
+        padding: 5px 8px;
+        border-radius: 5px;
+        width: 60px;
+        height: 45px;
+        }
+
+    </style>
+    <body></head>
+        <body>
+        <script>
+            alert("HAII HELLOO!! \n SEMANGAT PAGI!! \n SELAMAT DATANG!!!");
+        </script>
+
+</script>
+</head>
+<body>
+
+    <form action="" method="post" onSubmit="return validasi()">
+        <div>
+           <br><br> <marquee direction="right" scroolamount="4"> HAII, HELLO <br> Calon Siswa Baru SMA KATOLIK SURIA!!!</marquee>
+    
+        <h1><br>Formulir Siswa Baru SMA KATOLIK SURIA</h1>
+        <script>
+            function cekform() {
+                var nama = document.forms ["formulir_tambah"] ["nama"].value;
+                var jenis = document.forms ["formulir_tambah"]["jenis"].value;
+                var date = document.forms["formulir_tambah"]["date"].value;
+                var provinsi = document.forms ["formulir_tambah"]["provinsi"].value;
+                var alamat = document.forms ["formulir_tambah"]["alamat"].value;
+
+                if(nama==""){
+                    window.alert("Nama belum diisi");
+                    document.getElementById("nama").focus();
+                    return false;
+                }
+                if(jenis==""){
+                    window.alert("Jenis kelamin belum diisi");
+                    document.getElementById("jenis").focus();
+                    return false;
+                }
+            
+                if(date==""){
+                    window.alert("Tanggal lahir belum diisi");
+                    document.getElementById("date").focus();
+                    return false;
+
+                if(provinsi==""){
+                    window.alert("Provinsi belum diisi");
+                    document.getElementById("provinsi").focus();
+                    return false;
+
+                 if(alamat==""){
+                    window.alert("Alamat belum diisi");
+                    document.getElementById("alamat").focus();
+                    return false;
+            } 
+
+        </script> 
+        <td><h2>Nama</td>
+        <td>:</td>
+            <input type="text" required placeholder="Ketik nama lengkap anda"
+                width="25"
+                id="nama"
+                name="nama">
+    </tr></h2>
+
+    <tr>
+        <td><h2>Jenis Kelamin</td></tr>
+        <td>:</td>
+        <td><input type="radio" required name="jenis" id="laki" value="L">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" name="jenis" id="Perempuan" value= "P"> 
+        <label for="perempuan">Perempuan</label></td>   
+    </tr></h2>
+    
+    <td><h2>Tempat</td>
+        <td>:</td>
+            <input type="text" required placeholder="Masukkan tempat lahir anda"
+                width="25"
+                id="nama"
+                name="nama">
+    <tr>
+        <h2><td>Tanggal Lahir</td>
+        <td>:</td>
+        <td><input required type="Date"> </td>
+
+        <td><h2>Email</td>
+        <td>:</td>
+        <input type="text" required placeholder="Masukkan Email anda"
+                width="25"
+                id="nama"
+                name="nama">
+
+
+        <td><h2>No telp</td>
+        <td>:</td>
+            <input type="text" required placeholder="Masukkan No telp anda"
+                width="25"
+                id="nama"
+                name="nama">
+
+    </tr></h2>
+        <td><h2><label for="alamat">Alamat Rumah</label>
+        <td>:</td><table width="800px">
+    <tbody>
+    <textarea required name="alamat" id="alamat" cols="30" rows="5" 
+        maxlength="250"
+        textarea style="resize: none;"></textarea></td></tr></h2>
+
+        <td></td>
+        <br><td><h2><label for="minat">Jurusan</label>
+        <select name="minat" id="minat" required>
+         <br> <option value="">-Jurusan-</option>
+          <option ="">-IPA-</option>
+          <option>IPS</option>
+          <option>BAHASA</option>
+        
+        <td></td>
+        <h2><label for="minat">Minat dan Bakat</label>
+        <select name="minat" id="minat" required>
+         <br> <option value="">-Pilih Minat dan Bakat-</option>
+          <option value="">-Musik-</option>
+                              <option>Angklung</option>
+                              <option>Gitar</option>
+                              <option>Biola</option>
+                              <option>Piano</option>
+                              <option>Kolintang</option>
+                              <option>Drumband</option>
+                              <option value="">-Olahraga-</option>
+                              <option>Sepak Bola</option>
+                              <option>Bola Basket</option>
+                              <option>Bola Volley</option>
+                              <option>Bulu Tangkis</option>
+                              <option value="">-Bela Diri-</option>
+                              <option>Taekwondo</option>
+                              <option>Perisai Diri (Silat)</option>
+                              <option>Karate</option>
+                              <option>THS-THM</option>
+                              <option>Kempo</option>
+                              <option value="">-Akademik-</option>
+                              <option>English Class</option>
+                              <option>MIPA</option>
+                              <option value="">-Lainnya-</option>
+                              <option>Jurnalistik</option>
+                              <option>Catur</option>
+                              <option>Menari</option>
+                              <option>Paduan Suara</option>
+                              <option>Pramuka</option>
+                    <select name="minat" id="minat" required></select>
+                    </select></td>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="submit" value="Kirim"/>
+        <input type="reset" name="reset" value="Reset"/></td>
+    </tr>
+    </table>
+    </body>
+    </html>    
